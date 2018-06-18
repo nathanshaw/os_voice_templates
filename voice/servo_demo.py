@@ -18,9 +18,9 @@ def main():
 
     servo = Servo(26)
     but = aiy.voicehat.get_button()
-    
+
     led = 26
-    GPIO.setmode(GPIO.BCM)  
+    GPIO.setmode(GPIO.BCM)
     GPIO.setup(led, GPIO.OUT)
 
     print("initializing system")
